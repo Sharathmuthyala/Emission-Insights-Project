@@ -39,10 +39,10 @@ CO2 Emissions vs. Fuel Consumption: A scatterplot indicates a negative correlati
 ## Regression Models
 The core of the analysis involved linear regression to predict CO2 emissions.
 
-Null Model
+Null Model :
 A simple linear regression model was used, calculating the average CO2 emissions with just an intercept. The average emissions were about 250.5 grams per kilometer.
 
-Raw Model
+Raw Model :
 A multiple linear regression model was developed including predictors like car make, engine size, cylinders, and fuel type. This model achieved an R-squared value of 0.9938, indicating it explained almost all the variability in CO2 emissions. The residual standard error was about 4.662.
 
 Diagnostics: Diagnostic plots for the raw model suggested issues such as potential non-linearity, deviations from normality, heteroscedasticity, and influential outliers.
